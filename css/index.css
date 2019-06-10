@@ -1,3 +1,154 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Main Container */
 
+.main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
 
+img, embed, object, video {
+  max-width: 100%;
+}
+
+/* Header */
+
+.parent-header {
+  display: flex;
+}
+
+.parent-header .parent-nav {
+  display: flex;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-left: 69px;
+}
+
+.parent-header .parent-nav a {
+  margin-right: 61px;
+  font-size: 16px;
+  color: grey;
+  text-decoration: none;
+}
+
+.parent-header .parent-nav a:hover {
+  text-decoration: underline;
+}
+
+.parent-header .parent-nav a:first-child {
+  margin-left: 0;
+}
+
+.parent-header .parent-nav a:last-child {
+  margin-right: 0;
+}
+
+.parent-header .logo {
+  margin-top: 27px;
+  margin-left: 93px;
+}
+
+/* Title Section */
+
+.parent-title_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent-title_section .child-title_section {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  font-size: 75px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.parent-title_section .child-title_section h1 {
+  margin-left: 120px;
+  margin-top: 7px;
+  line-height: .95;
+  letter-spacing: 1px;
+}
+
+.parent-title_section .child-title_section button {
+  background: white;
+  vertical-align: top;
+  width: 170px;
+  height: 35px;
+  margin-left: 185px;
+  margin-top: 10px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.parent-title_section .child-title_section button:hover {
+  background: black;
+  color: white;
+}
+
+.parent-title_section img {
+  margin-top: 71px;
+}
+
+/* Main Content */
+
+.main-content {
+
+}
+
+.main-content .top-content {
+
+}
+
+.main-content .top-content p {
+
+}
+
+.main-content .top-content .text-content {
+
+}
+
+.main-content .top-content .text-content:last-child {
+
+}
+
+.main-content .middle-img {
+
+}
+
+.main-content .bottom-content {
+
+}
+
+.main-content .bottom-content .text-content {
+
+}
+
+.main-content .bottom-content .text-content:last-child {
+
+}
+
+.main-content .bottom-content p {
+
+}
+
+/* Contact Information */
+
+.contact-information {
+
+}
+
+.contact-information h4 {
+
+}
+
+.contact-information p {
+
+}
+
+/* Footer */
+
+footer {
+
+}
