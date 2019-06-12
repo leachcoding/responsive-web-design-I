@@ -46,6 +46,10 @@ img, embed, object, video {
   margin-left: 93px;
 }
 
+.parent-header .parent-nav .media-line {
+  visibility: hidden;
+}
+
 /* Title Section */
 
 .parent-title_section {
@@ -164,6 +168,164 @@ img, embed, object, video {
 footer {
   margin-top: 40px;
   margin-left: 30px;
+  margin-bottom: 25px;
   text-align: center;
   font-size: 16px;
+}
+
+/* Media Query @800PX */
+
+@media (max-width: 800px) {
+
+/* Main Container @800PX */
+  .main-container {
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+/* Header Section @800PX */
+  .parent-header {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .parent-header .parent-nav {
+    margin-left: 30px;
+  }
+
+  .parent-header .parent-nav a {
+    margin-right: 81px;
+  }
+
+  .parent-header .logo {
+    width: 185px;
+    margin-left: 310px;
+    margin-top: 30px;
+  }
+
+  .parent-header .parent-nav .media-line {
+    visibility: hidden;
+  }
+
+/* Title Section @800PX */
+  .parent-title_section .child-title_section h1 {
+    margin-left: 173px;
+    margin-top: -47px;
+  }
+
+  .parent-title_section .child-title_section button {
+    width: 170px;
+    height: 35px;
+    margin-left: 240px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .parent-title_section img {
+    display: none;
+  }
+
+/* Main Section @800PX */
+  .main-content {
+    margin-top: 75px;
+  }
+
+  .main-content .top-content:first-child {
+    margin-left: -45px;
+    margin-right: -58px;
+  }
+
+  .main-content .top-content:first-child h4 {
+    margin-top: -3px;
+  }
+
+  .main-content .top-content p {
+    line-height: 1.15;
+    margin-right: 25px;
+  }
+
+  .main-content .top-content .text-content {
+    flex-flow: column wrap;
+  }
+
+  .main-content .middle-img {
+    margin-top: 32px;
+  }
+
+  .main-content .bottom-content {
+    margin-top: 50px;
+  }
+
+  .main-content .bottom-content .text-content:first-child {
+    margin-left: -45px;
+    margin-right: 68px;
+  }
+
+  .main-content .bottom-content .text-content:last-child {
+    margin-left: 55px;
+  }
+
+  .main-content .bottom-content .text-content {
+    flex-flow: column wrap;
+  }
+
+  .main-content .bottom-content p {
+    margin-bottom: -1px;
+  }
+
+/* Contact Information */
+  .contact-information {
+    margin-left: 27px;
+  }
+}
+
+/* Media Query @500PX */
+
+@media (max-width: 500px) {
+
+/* Main Container @500PX */
+  .main-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+/* Header Section @500PX */
+  .parent-header .parent-nav {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .parent-header .parent-nav a {
+    max-width: 100%;
+    align-self: center;
+    font-size: 21px;
+    margin-left: 65px;
+    line-height: 2.05;
+  }
+
+  .parent-header .logo {
+    max-width: 100%;
+    align-self: center;
+    margin-right: 286px;
+    margin-top: 20px;
+  }
+
+  .parent-header .parent-nav .media-line {
+    visibility: visible;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: -25px;
+  }
+
+
+
+
+
+
+
+
+
+
 }
